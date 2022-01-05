@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.top-banner {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(168, 16, 16);
+}
+#empty-item {
+    width: 40%;
+}
+#about-item {
+    width: 20%;
+}
+#work-item {
+    width: 20%;
+}
+.intro-part{
+    width: 100%;
+    height: 500px;
+    background-color: #222225;
+}
+.btn {
+    background-color: rgb(168, 16, 16);
+    border: none;
+    color: wheat;
+    font-size: 130%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 146px;
+    padding-bottom: 74px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #45567D;
+    color: pink;
+}
+.btn-content {
+    position: relative;
+    top: 39px;
+    left: 70px;
+}
+.intro-part {
+    background-color: #292A2D;
+    width: 100%;
+    height: 400px;
+}
+.intro-content {
+    padding-left: 30%;
+    padding-top: 15%;
+}
+.intro-name {
+    color: #F0F0F0;
+    margin-bottom: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-right: 20px;
+    font-size: 70px;
+}
+.intro-title {
+    color: rgb(255, 43, 43);
+    margin-left: 22px;
+}
+.skills {
+    background-color: #84a7f9;
+    width: 100%;
+    height: 2216px;
+}
+#skills-title {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: cursive;
+    padding-bottom: 15px;
+}
+#skills-title-border {
+    border-bottom: 4px solid white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+}
+.skills-first-row {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+.skills-first-row img {
+    width: 290px;
+    height: 290px;
+}
+.first-row-img {
+    padding-left: 20px;
+}
+.img-and-button {
+    height: 100%;
+}
+.pt-one {
+    height: 82%;
+    margin-bottom: 0;
+}
+.skills-btn {
+    height: 18%;
+    width: 100%;
+    margin-top: 0;
+    background-color: #303841;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
+    font-size: 120%;
+}
+.skills-btn:hover {
+    background-color: #67788b;
+    color: khaki;
+}
+#skill-second-row {
+    margin-top: 0;
+}
+.about-me-title{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about-me-section {
+    display: flex;
+}
+.about-me-p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-me-title2 {
+    text-align: center;
+    font-family: cursive;
+}
+.left-section-hp {
+    margin-top: 110px;
+}
+.image-round{
+    border-radius: 50%;
+}
+.hire-button-position {
+    position: relative;
+    left: 171px;
+    top:18px;
+}
+.btn-hire-cv {
+    background-color: rgb(197, 248, 121);
+    padding: 20px;
+    border: none;
+    color: #690569e3;
+    transition: 0.2s;
+    font-size: 120%;
+    border-radius: 5px;
+}
+.btn-hire-cv:hover {
+    background-image: linear-gradient(#FFFFFF, #6284FF, #FF0000);
+    color:red;
+}
+#btn-id {
+    position: relative;
+    left: 130px;
+    top:35px;
+}
+.experience-section {
+    display: flex;
+    margin-top: 45px;
+    width: 95%;
+}
+.experience-title {
+    font-weight: 900;
+    font-size: 300%;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 50px;
+}
+.experience-left-section {
+    width: 50%;
+    
+}
+.experience-right-section {
+    width: 50%;
+}
+.experience-right-sec {
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-right: 90px;
+    border-left-style: solid;
+    border-width: 5px;
+    border-image: linear-gradient(green, #260B3C, #a053df);
+    border-image-slice: 1;
+    background-image: linear-gradient(red, yellow, green);
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 60%;
+    padding-bottom: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px #888888;
+}
+.experience-p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.bwd {
+    font-size: 200%;
+    font-family: cursive;
+    color: chartreuse;
+}
+.pwd {
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#00FDFD;
+}
+.para {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0011ff;
+}
+.footer {
+    text-align: center;
+    color: rgb(70, 56, 56);
+    font-family: cursive;
+    font-size: 150%;
+}
